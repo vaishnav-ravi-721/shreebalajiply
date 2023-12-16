@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="balaji.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <title>Document</title>
+</head>
+
+<body  onload="showItems()">
+    <div id="mainContainer"> 
+            <div id="searchItem">
+                <p id="shopName">Balaji Ply</p>
+                <input id="takeInput" type="text" onkeyup="filterItems()" placeholder="search our products here...">
+            </div>
+        <div id="itemContainer"></div>
+    </div>        
+</body>
+<script src="balajidb.js"></script>
+<script src="balaji.js"></script>
+</html>
